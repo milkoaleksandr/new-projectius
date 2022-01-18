@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.main {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+.up {
+    background-color: #f5f5f5;
+    display: flex;
+
+}
+.left-aside {
+    width: 50%;
+}
+.header {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first-input {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.first-input input {
+    width: 400px;
+    margin-left: 10px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid grey;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.second-input {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.second-input input {
+    width: 400px;
+    margin-left: 10px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid grey;
+}
+
+.third-input {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.third-input input {
+    width: 194px;
+    margin-left: 10px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid grey;
+}
+.first-choose {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.choose-name {
+    margin-left: 10px;
+    display: flex;
+}
+.second-choose {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.right-aside {
+    width: 50%;
+}
+
+.right-first-input {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right-first-input input {
+    width: 194px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid grey;
+    padding-bottom: 6px;
+    margin-left: 10px;
+}
+
+.right-second-input {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.right-second-input input {
+    width: 194px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid grey;
+    padding-bottom: 6px;
+    margin-left: 10px;
+}
+select {
+    margin-left: 10px;
+    border: 0;
+    width: 194px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+    background-color: #f5f5f5;
+    color: grey;
+}
+.down {
+    display: block;
+}
+.knopka {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f5f5f5;
+}
+.knopka input {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #008a8c;
+    border: none;
+    border-radius: 11px;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 60px;
+}

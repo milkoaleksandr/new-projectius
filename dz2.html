@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>My site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="dz2_styles.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
+</head>
+
+<body>
+    <form action="#">
+        <div class="main">
+            <div class="up">
+                <div class="left-aside">
+                    <div class="header">Registration form</div>
+                    <div class="first-input">
+                        <img src="img/username.png" width="30px" height="30px">
+                        <input type="text" placeholder="Username" maxlength="50" required pattern="\w">
+                    </div>
+                    <div class="second-input">
+                        <img src="img/email.png" width="30px" height="30px">
+                        <input type="email" placeholder="Email address" maxlength="50" required pattern="[a-zA-Z]">
+                    </div>
+                    <div class="third-input">
+                        <img src="img/pswd.png" width="30px" height="30px">
+                        <input type="password" placeholder="Password" maxlength="50" required pattern="\w">
+                        <input type="password" placeholder="Confirm password" maxlength="50" required  pattern="\w">
+                    </div>
+                </div>
+                <div class="right-aside">
+                    <div class="header">Personal details</div>
+                    <div class="right-first-input">
+                        <input type="text" placeholder="First name" maxlength="50" required pattern="\w">
+                        <input type="text" placeholder="Last name" maxlength="50" required pattern="\w">
+                    </div>
+                    <div class="right-second-input">
+                        <select>
+                            <option label="Male" value="1">Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                        <input type="text" placeholder="mm/dd/yy" required pattern="[0-9]">
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="first-choose">
+                    <label>
+                        <input type="checkbox">
+                        I want to receive mews and special offers
+                    </label>
+                </div>
+                <div class="second-choose">
+                    <label>
+                        <input type="checkbox">
+                        I agree with the Terms and Conditions
+                    </label>
+                </div>
+            </div>
+            <div class="knopka">
+                <input type="submit" value="Submit" id="my">
+            </div>
+        </div>
+    </form>
+
+
+</body>
+
+
+
+
+
+</html>
